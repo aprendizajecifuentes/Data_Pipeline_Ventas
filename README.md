@@ -1,13 +1,11 @@
-Título del Proyecto
+**Pipeline de Datos: Limpieza, Integración y Visualización de Ventas**
 
-Pipeline de Datos: Limpieza, Integración y Visualización de Ventas
-
-Descripción
+**Descripción**
 
 Este proyecto implementa un flujo completo de análisis de datos utilizando Python, PostgreSQL y Power BI.
 El objetivo principal es crear un sistema que permita limpiar, integrar y visualizar información de clientes, productos y ventas para obtener una visión analítica del negocio.
 
-Objetivos del Proyecto
+**Objetivos del Proyecto**
 
 Construir un pipeline de datos desde archivos crudos hasta una base de datos relacional (PostgreSQL).
 
@@ -19,7 +17,7 @@ Crear relaciones y dashboards interactivos para el análisis de comportamiento d
 
 Documentar el flujo de trabajo para mostrar habilidades en análisis, automatización y visualización de datos.
 
-Tecnologías Utilizadas
+**Tecnologías Utilizadas**
 
 Python (pandas, psycopg2)
 
