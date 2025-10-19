@@ -35,3 +35,4 @@ Conclusiones
 
 El proyecto demuestra la capacidad para integrar herramientas de análisis y bases de datos en un flujo de trabajo completo.
 La visualización final en Power BI permite identificar tendencias de ventas, segmentos de clientes y rendimiento de productos, apoyando la toma de decisiones basada en datos.
+
