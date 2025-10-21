@@ -31,6 +31,21 @@ GitHub
 
 Conclusiones
 
+**FLujo de trabajo**
+## 🧠 Diagrama de flujo del Pipeline
+
+```mermaid
+flowchart TD
+    A[📥 Fuentes de Datos <br>(Excel, CSV, Ventas brutas)] --> B[🧹 Limpieza y Transformación <br>con Python (Pandas)]
+    B --> C[🗄️ Carga en Base de Datos <br>PostgreSQL]
+    C --> D[📊 Visualización y Análisis <br>en Power BI]
+      
+    subgraph Pipeline de Ventas
+        A --> B --> C --> D
+    end
+
+**Conclusion**
+
 El proyecto demuestra la capacidad para integrar herramientas de análisis y bases de datos en un flujo de trabajo completo.
 La visualización final en Power BI permite identificar tendencias de ventas, segmentos de clientes y rendimiento de productos, apoyando la toma de decisiones basada en datos.
 
