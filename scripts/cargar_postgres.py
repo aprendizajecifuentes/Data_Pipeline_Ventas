@@ -1,7 +1,8 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-# Datos de conexión
+# Datos de conexión //deben ir en archivo .venv para no ser publicados.
+
 usuario = 'postgres'
 password = 'tu_contraseña'
 host = 'localhost'
@@ -24,5 +25,5 @@ clientes.to_sql('clientes', engine, if_exists='replace', index=False)
 productos.to_sql('productos', engine, if_exists='replace', index=False)
 ventas.to_sql("ventas", engine, if_exists="replace", index=False)
 
-print("✅ Tabla 'ventas' cargada correctamente en PostgreSQL.")
-print("✅ Datos cargados correctamente en PostgreSQL")
+print("Tabla 'ventas' cargada correctamente en PostgreSQL.")
+print("Datos cargados correctamente en PostgreSQL")
